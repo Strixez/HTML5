@@ -405,4 +405,24 @@
   font-size: 12px;
   padding: 12px 0;
 }
+
+.dignity__item-text {
+  position: relative;
+  padding-left: 50px;
+}
+
+.dignity__item-text:before {
+  content: "+";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: #445161;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  line-height: 32px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
 /*# sourceMappingURL=style.css.map */
