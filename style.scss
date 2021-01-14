@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 .content_background {
-    background-color: #445161;
+    background-image: url(img/bg.png);
 }
 .product {
     max-width: 1172px;
@@ -168,6 +168,21 @@
     padding-top: 16px;
     padding-left: 15px;
     border-radius: 5px;
+    position: relative;
+}
+
+.reviews__user-sign::before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #EBEBEB;
+    position: absolute;
+
+    left: -15px;
+    top: 33px;
 }
 
 .reviews__text {
@@ -302,18 +317,25 @@
     height: 43px;
     border-radius: 5px;
     margin-bottom: 18px;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 .contacts__email {
     height: 43px;
     border-radius: 5px;
     margin-bottom: 19px;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 .contacts__message {
     height: 173px;
+    padding-top: 5px;
     border-radius: 5px;
     margin-bottom: 18px;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 .contacts__flexbox {
@@ -376,5 +398,29 @@
     top: 5px;
     left: 5px;
     
-  }
-  
+}
+
+.socials__icons {
+    font-size: 40px;
+
+}
+.fab {
+    color: white;
+}
+
+.contacts__name::placeholder {
+    font-size: 16px;
+    color: #445161;
+}
+
+.contacts__email::placeholder {
+    font-size: 16px;
+    color: #445161;
+}
+
+.contacts__message::placeholder {
+    
+    padding-top: 3px;
+    font-size: 16px;
+    color: #445161;
+}
