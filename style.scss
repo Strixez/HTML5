@@ -317,18 +317,25 @@
     height: 43px;
     border-radius: 5px;
     margin-bottom: 18px;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 .contacts__email {
     height: 43px;
     border-radius: 5px;
     margin-bottom: 19px;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 .contacts__message {
     height: 173px;
+    padding-top: 5px;
     border-radius: 5px;
     margin-bottom: 18px;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 .contacts__flexbox {
@@ -394,5 +401,26 @@
 }
 
 .socials__icons {
-    font-size: 45px;
+    font-size: 40px;
+
+}
+.fab {
+    color: white;
+}
+
+.contacts__name::placeholder {
+    font-size: 16px;
+    color: #445161;
+}
+
+.contacts__email::placeholder {
+    font-size: 16px;
+    color: #445161;
+}
+
+.contacts__message::placeholder {
+    
+    padding-top: 3px;
+    font-size: 16px;
+    color: #445161;
 }
